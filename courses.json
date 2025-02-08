@@ -1,0 +1,236 @@
+[
+    {
+        "id": 1,
+        "title": "تطوير الويب الشامل",
+        "image": "https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg",
+        "instructor": {
+            "name": "أحمد محمد",
+            "image": "https://placehold.co/100x100/2196f3/ffffff?text=AM"
+        },
+        "lectures": 42,
+        "hours": 35,
+        "price": 999,
+        "description": "دورة شاملة في تطوير الويب تغطي HTML، CSS، JavaScript والمزيد"
+    },
+    {
+        "id": 2,
+        "title": "تعلم Python للمبتدئين",
+        "image": "https://cdn.activestate.com/wp-content/uploads/2021/12/python-coding-mistakes-1024x512.jpg",
+        "instructor": {
+            "name": "سارة أحمد",
+            "image": "https://placehold.co/100x100/4caf50/ffffff?text=SA"
+        },
+        "lectures": 38,
+        "hours": 30,
+        "price": 799,
+        "description": "تعلم أساسيات البرمجة باستخدام لغة Python مع التطبيقات العملية"
+    },
+    {
+        "id": 3,
+        "title": "تصميم واجهات المستخدم",
+        "image": "https://blog.openreplay.com/images/fundamentals-of-ui-design/images/hero.png",
+        "instructor": {
+            "name": "محمد علي",
+            "image": "https://placehold.co/100x100/ff9800/ffffff?text=MA"
+        },
+        "lectures": 28,
+        "hours": 25,
+        "price": 899,
+        "description": "تعلم أساسيات تصميم واجهات المستخدم وتجربة المستخدم"
+    },
+    {
+        "id": 4,
+        "title": "React.js المتقدم",
+        "image": "https://www.patterns.dev/img/reactjs/react-logo@3x.svg",
+        "instructor": {
+            "name": "عمر خالد",
+            "image": "https://placehold.co/100x100/00bcd4/ffffff?text=OK"
+        },
+        "lectures": 45,
+        "hours": 40,
+        "price": 1299,
+        "description": "تعلم تطوير تطبيقات الويب المتقدمة باستخدام React.js"
+    },
+    {
+        "id": 5,
+        "title": "تحليل البيانات  ",
+        "image": "https://www.itpt.co.uk/wp-content/uploads/2023/03/Data-Analytics-1.jpg",
+        "instructor": {
+            "name": "ليلى حسن",
+            "image": "https://placehold.co/100x100/e91e63/ffffff?text=LH"
+        },
+        "lectures": 32,
+        "hours": 28,
+        "price": 899,
+        "description": "تعلم تحليل البيانات الإحصائية  "
+    },
+    {
+        "id": 6,
+        "title": "تطوير تطبيقات الموبايل",
+        "image": "https://www.twinsoftbd.com/website/image/services/mobile-app-development.png",
+        "instructor": {
+            "name": "كريم سعيد",
+            "image": "https://placehold.co/100x100/9c27b0/ffffff?text=KS"
+        },
+        "lectures": 50,
+        "hours": 45,
+        "price": 1499,
+        "description": "تطوير تطبيقات الهواتف الذكية لنظامي Android و iOS"
+    },
+    {
+        "id": 7,
+        "title": "الذكاء الاصطناعي للمبتدئين",
+        "image": "https://img.freepik.com/free-vector/robotic-artificial-intelligence-technology-smart-lerning-from-bigdata_1150-48136.jpg?t=st=1739044011~exp=1739047611~hmac=5fb251988fcdc6537f5b2fab9427dd57e3e195a35ad4c051147c902c1150985e&w=996",
+        "instructor": {
+            "name": "نور الدين",
+            "image": "https://placehold.co/100x100/3f51b5/ffffff?text=ND"
+        },
+        "lectures": 35,
+        "hours": 30,
+        "price": 1199,
+        "description": "مقدمة في الذكاء الاصطناعي وتعلم الآلة"
+    },
+    {
+        "id": 8,
+        "title": "تصميم الجرافيك الاحترافي",
+        "image": "https://www.maacgp.com/graphic-design-courses-kolkata/graphc-design-traning.jpg",
+        "instructor": {
+            "name": "رنا محمود",
+            "image": "https://placehold.co/100x100/009688/ffffff?text=RM"
+        },
+        "lectures": 40,
+        "hours": 35,
+        "price": 899,
+        "description": "تعلم تصميم الجرافيك باستخدام Adobe Creative Suite"
+    },
+    {
+        "id": 9,
+        "title": "أمن المعلومات والشبكات",
+        "image": "https://media.istockphoto.com/id/1849966331/vector/cpu-chip-on-motherboard-central-computer-processors-cpu-concept-quantum-computer-large-data.jpg?s=612x612&w=0&k=20&c=gwnDW37MfXMJn7M4XOUgQxWcDr5W62YXfQ1k6MBn4qI=",
+        "instructor": {
+            "name": "حسام الدين",
+            "image": "https://placehold.co/100x100/607d8b/ffffff?text=HD"
+        },
+        "lectures": 45,
+        "hours": 40,
+        "price": 1399,
+        "description": "تعلم أساسيات أمن المعلومات وحماية الشبكات"
+    },
+    {
+        "id": 10,
+        "title": "تطوير الألعاب مع Unity",
+        "image": "https://edraak-marketing-uploads.edraak.org/Courses/Artboard_7-8.png",
+        "instructor": {
+            "name": "يوسف عادل",
+            "image": "https://placehold.co/100x100/795548/ffffff?text=YA"
+        },
+        "lectures": 55,
+        "hours": 50,
+        "price": 1599,
+        "description": "تعلم تطوير ألعاب ثنائية وثلاثية الأبعاد باستخدام Unity"
+    },
+    {
+        "id": 11,
+        "title": "التسويق الرقمي",
+        "image": "https://media.istockphoto.com/id/1795167728/photo/growth-in-business-and-finance-growing-graphs-and-charts.jpg?s=612x612&w=0&k=20&c=626gZ0gRzvxnmVODOIGYmIlMWnFc5Uv5fV7OrddBp-w=",
+        "instructor": {
+            "name": "منى سعد",
+            "image": "https://placehold.co/100x100/ff5722/ffffff?text=MS"
+        },
+        "lectures": 30,
+        "hours": 25,
+        "price": 799,
+        "description": "تعلم أساسيات التسويق الرقمي ووسائل التواصل الاجتماعي"
+    },
+    {
+        "id": 12,
+        "title": "Node.js للمحترفين",
+        "image": "https://www.technologika.ru/files/blog/83/node.js%5f2018%2d3.1.png",
+        "instructor": {
+            "name": "طارق حسين",
+            "image": "https://placehold.co/100x100/8bc34a/ffffff?text=TH"
+        },
+        "lectures": 48,
+        "hours": 42,
+        "price": 1299,
+        "description": "تطوير تطبيقات الخادم باستخدام Node.js و Express"
+    },
+    {
+        "id": 13,
+        "title": "علم البيانات المتقدم",
+        "image": "https://www.naukri.com/campus/career-guidance/wp-content/uploads/2023/11/what-is-data-science.jpg",
+        "instructor": {
+            "name": "سمير فؤاد",
+            "image": "https://placehold.co/100x100/673ab7/ffffff?text=SF"
+        },
+        "lectures": 52,
+        "hours": 45,
+        "price": 1499,
+        "description": "تحليل البيانات المتقدم وتعلم الآلة باستخدام Python"
+    },
+    {
+        "id": 14,
+        "title": "تصميم قواعد البيانات",
+        "image": "https://assets.datamation.com/uploads/2023/06/dm-top-database-challenges-696x457.png",
+        "instructor": {
+            "name": "هدى كمال",
+            "image": "https://placehold.co/100x100/03a9f4/ffffff?text=HK"
+        },
+        "lectures": 35,
+        "hours": 30,
+        "price": 999,
+        "description": "تصميم وإدارة قواعد البيانات SQL و NoSQL"
+    },
+    {
+        "id": 1,
+        "title": "تطوير واجهات المستخدم بـ HTML و CSS",
+        "image": "https://velog.velcdn.com/images/daekuenhan/post/f87b520e-55e0-4d68-adbb-7b930967af61/____HTML__CSS__.png",
+        "instructor": {
+            "name": "أحمد حسن",
+            "image": "https://placehold.co/100x100/ff5733/ffffff?text=AH"
+        },
+        "lectures": 30,
+        "hours": 25,
+        "price": 999,
+        "description": "تعلم أساسيات تطوير الواجهات باستخدام HTML و CSS."
+    },
+    {
+        "id": 2,
+        "title": "إتقان Sass لتصميمات CSS احترافية",
+        "image": "https://www.ionos.com/digitalguide/fileadmin/_processed_/7/e/csm_sass-t_c565251d45.webp",
+        "instructor": {
+            "name": "سارة محمود",
+            "image": "https://placehold.co/100x100/9c27b0/ffffff?text=SM"
+        },
+        "lectures": 20,
+        "hours": 15,
+        "price": 799,
+        "description": "اكتشف قوة Sass في تحسين تنظيم وكتابة CSS بكفاءة."
+    },
+    {
+        "id": 3,
+        "title": "JavaScript من الصفر للاحتراف",
+        "image": "https://ik.imagekit.io/ably/ghost/prod/2023/12/choosing-the-best-javascript-frameworks-for-your-next-project.png?tr=w-1728,q-50",
+        "instructor": {
+            "name": "محمد عبد الرحمن",
+            "image": "https://placehold.co/100x100/fbc02d/ffffff?text=MA"
+        },
+        "lectures": 50,
+        "hours": 40,
+        "price": 1499,
+        "description": "تعلم JavaScript بعمق من الأساسيات إلى البرمجة المتقدمة."
+    },
+    {
+        "id": 5,
+        "title": "إتقان Angular لبناء تطبيقات ويب ديناميكية",
+        "image": "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2F4088025%2Fcover_image%2Fretina_500x200%2Fcover-top-18-most-common-angularjs-developer-mistakes-1b749da1e1c05afea6660afec144d23f.png",
+        "instructor": {
+            "name": "أحمد المنسي",
+            "image": "https://placehold.co/100x100/dd0031/ffffff?text=AM"
+        },
+        "lectures": 50,
+        "hours": 40,
+        "price": 1899,
+        "description": "تعلم Angular من البداية إلى الاحتراف وإنشاء تطبيقات ويب متقدمة."
+    }
+]

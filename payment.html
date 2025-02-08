@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الدفع - منصة التعلم الإلكتروني</title>
+    <!-- Bootstrap RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-4 ">
+        <div class="container ">
+            <a class="navbar-brand " href="index.html" data-translate="platform-name">منصة التعلم</a>
+            <div class="d-flex align-items-center ">
+                <button class="btn btn-outline-light me-2 " id="translateBtn" data-translate="translate">English</button>
+                <div class="text-light ms-3">
+                    <i class="fas fa-user me-1 " ></i>
+                    <span id="userName" class=""></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Payment Form -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h4 class="mb-0" data-translate="payment-details">تفاصيل الدفع</h4>
+                    </div>
+                    <div class="card-body">
+                        <!-- Course Details Summary -->
+                        <div class="alert alert-info mb-4">
+                            <h5 class="alert-heading" id="courseName"></h5>
+                            <p class="mb-0">
+                                <span data-translate="price">السعر</span>:
+                                <span id="coursePrice">0</span>
+                                <span data-translate="currency">جنيه</span>
+                            </p>
+                        </div>
+
+                        <!-- Payment Form -->
+                        <form id="paymentForm">
+                            <!-- Card Holder Name -->
+                            <div class="mb-3">
+                                <label class="form-label" data-translate="card-holder">اسم حامل البطاقة</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+
+                            <!-- Card Number -->
+                            <div class="mb-3">
+                                <label class="form-label" data-translate="card-number">رقم البطاقة</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="cardNumber" maxlength="19" required>
+                                    <span class="input-group-text ">
+                                        <i class="fab fa-cc-visa text-primary"></i>
+                                        <i class="fab fa-cc-mastercard ms-2 text-danger"></i>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <!-- Expiry Date -->
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-translate="expiry-date">تاريخ الانتهاء</label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="MM" maxlength="2" required>
+                                        <span class="input-group-text">/</span>
+                                        <input type="text" class="form-control" placeholder="YY" maxlength="2" required>
+                                    </div>
+                                </div>
+
+                                <!-- CVV -->
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label" data-translate="cvv">رمز CVV</label>
+                                    <input type="password" class="form-control" maxlength="3" required>
+                                </div>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-success w-100" data-translate="complete-payment">
+                                إتمام عملية الدفع
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Payment Methods -->
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title" data-translate="available-payment">وسائل الدفع المتاحة</h5>
+                        <div class="d-flex justify-content-center gap-4 mt-3">
+                            <i class="fab fa-cc-visa fa-3x text-primary"></i>
+                            <i class="fab fa-cc-mastercard fa-3x text-danger"></i>
+                            <i class="fab fa-cc-paypal fa-3x text-info"></i>
+                            <img src="./images/instaPay.jpg" alt="InstaPay" width="60" height="50">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- Footer -->
+     <footer class="footer py-5 bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="mb-4" data-translate="about-us">عن المنصة</h5>
+                    <p data-translate="about-desc">منصة تعليمية رائدة تقدم دورات عالية الجودة في مجالات البرمجة والتصميم
+                        والتطوير</p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-4" data-translate="quick-links">روابط سريعة</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white text-decoration-none mb-2 d-block"
+                                data-translate="home">الرئيسية</a></li>
+                        <li><a href="#courses" class="text-white text-decoration-none mb-2 d-block"
+                                data-translate="courses">الدورات</a></li>
+                        <li><a href="#contact" class="text-white text-decoration-none mb-2 d-block"
+                                data-translate="contact-us">تواصل معنا</a></li>
+                        <li><a href="#" class="text-white text-decoration-none mb-2 d-block"
+                                data-translate="privacy-policy">سياسة الخصوصية</a></li>
+                        <li><a href="#" class="text-white text-decoration-none mb-2 d-block"
+                                data-translate="terms">الشروط والأحكام</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-4" data-translate="contact-info">معلومات التواصل</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> <span
+                                data-translate="address">القاهرة، مصر</span></li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> <span data-translate="phone">+20 123 456
+                                789</span></li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> <span
+                                data-translate="email">info@elearning.com</span></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 text-center ">
+                    <p class="mb-0 " data-translate="copyright">جميع الحقوق محفوظة © 2025 منصة التعلم</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Custom JavaScript -->
+    <script src="./js/payment.js"></script>
+</body>
+
+</html>
