@@ -9,7 +9,7 @@
         },
         "lectures": 42,
         "hours": 35,
-        "price": 999,
+        "price": 1999,
         "description": "دورة شاملة في تطوير الويب تغطي HTML، CSS، JavaScript والمزيد"
     },
     {
@@ -182,7 +182,7 @@
         "description": "تصميم وإدارة قواعد البيانات SQL و NoSQL"
     },
     {
-        "id": 1,
+        "id": 15,
         "title": "تطوير واجهات المستخدم بـ HTML و CSS",
         "image": "https://velog.velcdn.com/images/daekuenhan/post/f87b520e-55e0-4d68-adbb-7b930967af61/____HTML__CSS__.png",
         "instructor": {
@@ -191,37 +191,37 @@
         },
         "lectures": 30,
         "hours": 25,
-        "price": 999,
+        "price": 1199,
         "description": "تعلم أساسيات تطوير الواجهات باستخدام HTML و CSS."
     },
     {
-        "id": 2,
+        "id": 16,
         "title": "إتقان Sass لتصميمات CSS احترافية",
         "image": "https://www.ionos.com/digitalguide/fileadmin/_processed_/7/e/csm_sass-t_c565251d45.webp",
         "instructor": {
-            "name": "سارة محمود",
-            "image": "https://placehold.co/100x100/9c27b0/ffffff?text=SM"
+            "name": "سارة محمد",
+            "image": "https://placehold.co/100x100/33ff57/ffffff?text=SM"
         },
-        "lectures": 20,
-        "hours": 15,
+        "lectures": 25,
+        "hours": 20,
         "price": 799,
-        "description": "اكتشف قوة Sass في تحسين تنظيم وكتابة CSS بكفاءة."
+        "description": "تعلم Sass لكتابة CSS بشكل أكثر تنظيماً وفعالية."
     },
     {
-        "id": 3,
+        "id": 17,
         "title": "JavaScript من الصفر للاحتراف",
         "image": "https://ik.imagekit.io/ably/ghost/prod/2023/12/choosing-the-best-javascript-frameworks-for-your-next-project.png?tr=w-1728,q-50",
         "instructor": {
-            "name": "محمد عبد الرحمن",
-            "image": "https://placehold.co/100x100/fbc02d/ffffff?text=MA"
+            "name": "محمد كريم",
+            "image": "https://placehold.co/100x100/5733ff/ffffff?text=MK"
         },
-        "lectures": 50,
-        "hours": 40,
-        "price": 1499,
-        "description": "تعلم JavaScript بعمق من الأساسيات إلى البرمجة المتقدمة."
+        "lectures": 40,
+        "hours": 35,
+        "price": 1099,
+        "description": "تعلم JavaScript من البداية وحتى المستوى المتقدم."
     },
     {
-        "id": 5,
+        "id": 18,
         "title": "إتقان Angular لبناء تطبيقات ويب ديناميكية",
         "image": "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2F4088025%2Fcover_image%2Fretina_500x200%2Fcover-top-18-most-common-angularjs-developer-mistakes-1b749da1e1c05afea6660afec144d23f.png",
         "instructor": {

@@ -361,20 +361,19 @@ function handleLogout() {
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
     // Password visibility toggle
-    const togglePassword = document.getElementById('togglePassword');
     const passwordInput = document.getElementById('password');
+    const eyeBtn = document.getElementById('eyeBtn');
+    const eyeIcon = eyeBtn.querySelector('i');
 
-    if (togglePassword && passwordInput) {
-        togglePassword.addEventListener('click', function () {
-            // Toggle password visibility
-            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-            passwordInput.setAttribute('type', type);
-
-            // Toggle eye icon
-            const eyeIcon = this.querySelector('i');
-            eyeIcon.classList.toggle('fa-eye');
-            eyeIcon.classList.toggle('fa-eye-slash');
-        });
+    eyeBtn.onclick = function() {
+        // Toggle password visibility
+        if(passwordInput.type === 'password') {
+            passwordInput.type = 'text';
+            eyeIcon.className = 'fas fa-eye-slash';
+        } else {
+            passwordInput.type = 'password';
+            eyeIcon.className = 'fas fa-eye';
+        }
     }
 
     // Check if user is logged in
