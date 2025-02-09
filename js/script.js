@@ -1,3 +1,19 @@
+// Top Button Visibility on Scroll
+window.onscroll = function () {
+    let scrollTopBtn = document.getElementById("scrollTopBtn");
+
+    // استخدام document.documentElement فقط
+    if (document.documentElement.scrollTop > 200) {
+        scrollTopBtn.style.display = "block";
+    } else {
+        scrollTopBtn.style.display = "none";
+    }
+};
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
 // Counter functions
 function startCounter(element, endValue) {
     let currentValue = 0;
@@ -118,16 +134,16 @@ function displayCourses(coursesData) {
         <div class="col-md-4 mb-4">
             <div class="card course-card h-100 shadow-sm">
                 <img src="${course.image}" class="card-img-top" alt="${course.title}" 
-                     onerror="this.src='https://placehold.co/600x400/2196f3/ffffff?text=Course'">
+                    onerror="this.src='https://placehold.co/600x400/2196f3/ffffff?text=Course'">
                 <div class="card-body">
                     <h5 class="card-title">${course.title}</h5>
                     <p class="card-text text-muted small">${course.description.substring(0, 100)}...</p>
                     <div class="d-flex align-items-center mb-3">
                         <img src="${course.instructor?.image || 'https://placehold.co/100x100/2196f3/ffffff?text=IN'}" 
-                             class="rounded-circle me-2" 
-                             width="30" 
-                             height="30" 
-                             alt="${course.instructor?.name || 'Instructor'}">
+                            class="rounded-circle me-2" 
+                            width="30" 
+                            height="30" 
+                            alt="${course.instructor?.name || 'Instructor'}">
                         <small class="text-muted">${course.instructor?.name || 'Instructor'}</small>
                     </div>
                     <div class="row mb-3">
@@ -448,3 +464,4 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+

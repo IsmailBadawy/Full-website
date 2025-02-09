@@ -25,6 +25,10 @@ body {
     margin-bottom: 40px;
 }
 
+.hero {
+    height: 100vh;
+}
+
 .hero-section h1 {
     font-weight: 700;
     margin-bottom: 20px;
@@ -51,6 +55,43 @@ body {
 .hero-stats .stat p {
     opacity: 0.9;
 }
+
+/* Top Button */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to right, #007bff, #52badd, #00fff2);
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #ffffffa6;
+    display: none;
+    transition: all 0.3s;
+}
+
+@keyframes arrow {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#scrollTopBtn:hover {
+    animation: arrow 1s infinite ease-in-out;
+}
+
 
 /* Courses Section */
 .section-title {
@@ -343,6 +384,7 @@ body {
 
 .footer a {
     transition: color 0.3s ease;
+    width: fit-content;
 }
 
 .footer a:hover {

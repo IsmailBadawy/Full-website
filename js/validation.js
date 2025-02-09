@@ -134,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const registerBtn = document.getElementById('registerBtn');
         const logoutBtn = document.getElementById('logoutBtn');
         const userNameSpan = document.querySelector('.user-name');
-        const course = document.querySelector('.course');
         const userName = document.getElementById('userName');
 
         if (registerForm) registerForm.style.display = 'none';

@@ -17,7 +17,8 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-4">
         <div class="container">
-            <a class="navbar-brand me-5" href="#" data-translate="platform-name">منصة التعلم</a>
+            <a class="navbar-brand m-0 fs-4 " href="#" data-translate="platform-name">منصة التعلم </a>
+            <img src="./images/learning-school-svgrepo-com.svg" width="40" class=" me-5">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,6 +41,7 @@
                         <a class="nav-link active" href="#whyUs" data-translate="why">لماذا نحن ؟</a>
                     </li>
                 </ul>
+                <button id="scrollTopBtn" onclick="scrollToTop()" class="z-3 "><i class="fa-solid fa-angles-up"></i></button>
                 <div class="d-flex align-items-center">
                     <button class="btn btn-outline-light me-2" id="translateBtn"
                         data-translate="translate">English</button>
@@ -111,7 +113,7 @@
     <!-- Hero Section -->
     <section class="hero-section py-5 bg-primary text-white mb-5" id="home">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center hero">
                 <div class="col-lg-5">
                     <h1 class="display-4 mb-4" data-translate="hero-title">ابدأ رحلة التعلم معنا</h1>
                     <p class="lead mb-4" data-translate="hero-subtitle">
@@ -131,7 +133,8 @@
                             <p class="mb-0" data-translate="stats-students">طالب</p>
                         </div>
                     </div>
-                    <button class="btn btn-light btn-lg mb-4" data-translate="start-learning">ابدأ التعلم الآن</button>
+                    <button class="btn btn-light btn-lg mb-4" data-translate="start-learning"
+                        onclick="location.href='#courses'">ابدأ التعلم الآن</button>
                 </div>
                 <div class="col-lg-7">
                     <img src="https://ccrw.org/wp-content/uploads/2024/07/eLearning-Blog-Banner-scaled.jpg"
@@ -390,7 +393,7 @@
                                 data-translate="home">الرئيسية</a></li>
                         <li><a href="#courses" class="text-white text-decoration-none mb-2 d-block"
                                 data-translate="courses">الدورات</a></li>
-                        <li><a href="#contact" class="text-white text-decoration-none mb-2 d-block"
+                        <li><a href="#contactUs" class="text-white text-decoration-none mb-2 d-block"
                                 data-translate="contact-us">تواصل معنا</a></li>
                         <li><a href="#" class="text-white text-decoration-none mb-2 d-block"
                                 data-translate="privacy-policy">سياسة الخصوصية</a></li>

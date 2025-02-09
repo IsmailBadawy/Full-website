@@ -2,7 +2,7 @@
 const translations = {
     ar: {
         // Navigation
-        'platform-name': 'منصة التعلم',
+        'platform-name': ' منصة التعلم'  ,
         'translate': 'English',
         'home': 'الرئيسية',
         'courses': 'الدورات',
